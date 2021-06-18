@@ -28,7 +28,7 @@ spec:
         entrypoint: /bin/sh
         id: "Clone Deployment Repo"
         timeout: 300s
-      - name: gcr.io/kpt-dev/kpt:latest
+      - name: gcr.io/kpt-dev/kpt:next
         volumes:
           - name: hydrated-workspace
             path: /hydrated-workspace
