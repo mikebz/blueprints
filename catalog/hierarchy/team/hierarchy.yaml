@@ -5,6 +5,7 @@ metadata:
   namespace: hierarchy # kpt-set: ${namespace}
   annotations:
     config.kubernetes.io/local-config: "true"
+    configmanagement.gke.io/managed: disabled
 spec:
   config:
     - retail:
